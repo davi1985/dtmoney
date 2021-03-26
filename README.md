@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+<div align="center" id="top"> 
+  <img src="./src/assets/logo.svg" alt="02 Dtmoney" />
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr/>
+<br>
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This applications is an personal finance manager.
 
-### `yarn start`
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center" id="top"> 
+  <img src="./src/assets/screen2.png" alt="02 Dtmoney" />
+</div>
+<br/>
+<br/>
+<div align="center" id="top"> 
+  <img src="./src/assets/screen1.png" alt="02 Dtmoney" />
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `yarn test`
+- Table with personal finance data with name, amount, category and date.
+- Summary cards with incomes, outcomes and total.
+- Button that Create a new transaction using a beautiful modal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `yarn build`
+The following tools were used in this project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [MirageJS](https://miragejs.com/)
+- [Polished](https://polished.js.org/)
+- [Axios](https://github.com/axios/axios)
+- [Styled Componensts](https://styled-components.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Requirements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-### `yarn eject`
+## Starting
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone this project
+$ git clone https://github.com/davi1985/dtmoney
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Access
+$ cd dtmoney
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Install dependencies
+$ yarn
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Run the project
+$ yarn start
 
-## Learn More
+# The server will initialize in the <http://localhost:3000>
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+Made with 💜 by <a href="https://github.com/davi1985" target="_blank">Davi Silva</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
